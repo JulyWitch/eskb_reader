@@ -1,0 +1,18 @@
+[FACTS]
+
+man("ali")
+woman("zahra")
+father("ali", "hassan")
+father("ali", "reza")
+mother("zahra", "hassan")
+
+
+[RULES]
+
+parent(x,y) = father(x,y), man(x)
+parent(x,y) = mother(x,y), woman(x) 
+husband(x,y) = father(x,a), mother(y,a)
+wife(x,y) = father(y,a), mother(x,a)
+sibling(x,y) = parent(a,x), parent(a,y)
+sister(x,y) = parent(a,x), parent(a,y), woman(x)
+brother(x,y) = parent(a,x), parent(a,y), man(x)

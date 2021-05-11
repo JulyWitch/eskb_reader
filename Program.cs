@@ -185,7 +185,7 @@ namespace project
         {
             key = keyrx.Match(input).Value.Replace("(", "").Replace(" ", ""); ;
             var vals = valuerx.Match(input).Value.Split(",");
-            attribute = vals[0].Replace("\"", "").Replace("(", "").Replace(")", "").Replace(" ", "");
+            attribute = vals[0].Replace("(", "").Replace(")", "").Replace(" ", "");
         }
 
 
@@ -242,8 +242,8 @@ namespace project
             // System.Console.WriteLine(input );
             key = keyrx.Match(input).Value.Replace("(", "").Replace(" ", ""); ;
             var vals = valuerx.Match(input).Value.Split(",");
-            prime = vals[0].Replace("\"", "").Replace("(", "").Replace(")", "").Replace(" ", "");
-            second = vals[1].Replace("\"", "").Replace("(", "").Replace(")", "").Replace(" ", "");
+            prime = vals[0].Replace("(", "").Replace(")", "").Replace(" ", "");
+            second = vals[1].Replace("(", "").Replace(")", "").Replace(" ", "");
         }
 
 

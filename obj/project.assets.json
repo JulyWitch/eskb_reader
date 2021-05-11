@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/sajad/Desktop/edu/data structure/project/project/project.csproj",
-      "projectName": "project",
-      "projectPath": "/home/sajad/Desktop/edu/data structure/project/project/project.csproj",
+      "projectUniqueName": "/home/sajad/Desktop/edu/data structure/project/eskb_reader/eskb_reader.csproj",
+      "projectName": "eskb_reader",
+      "projectPath": "/home/sajad/Desktop/edu/data structure/project/eskb_reader/eskb_reader.csproj",
       "packagesPath": "/home/sajad/.nuget/packages/",
-      "outputPath": "/home/sajad/Desktop/edu/data structure/project/project/obj/",
+      "outputPath": "/home/sajad/Desktop/edu/data structure/project/eskb_reader/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/sajad/.nuget/NuGet/NuGet.Config"

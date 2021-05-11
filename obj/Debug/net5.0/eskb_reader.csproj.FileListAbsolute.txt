@@ -1,0 +1,16 @@
+/home/sajad/Desktop/edu/data structure/project/eskb_reader/bin/Debug/net5.0/eskb_reader
+/home/sajad/Desktop/edu/data structure/project/eskb_reader/bin/Debug/net5.0/eskb_reader.deps.json
+/home/sajad/Desktop/edu/data structure/project/eskb_reader/bin/Debug/net5.0/eskb_reader.runtimeconfig.json
+/home/sajad/Desktop/edu/data structure/project/eskb_reader/bin/Debug/net5.0/eskb_reader.runtimeconfig.dev.json
+/home/sajad/Desktop/edu/data structure/project/eskb_reader/bin/Debug/net5.0/eskb_reader.dll
+/home/sajad/Desktop/edu/data structure/project/eskb_reader/bin/Debug/net5.0/ref/eskb_reader.dll
+/home/sajad/Desktop/edu/data structure/project/eskb_reader/bin/Debug/net5.0/eskb_reader.pdb
+/home/sajad/Desktop/edu/data structure/project/eskb_reader/obj/Debug/net5.0/eskb_reader.csprojAssemblyReference.cache
+/home/sajad/Desktop/edu/data structure/project/eskb_reader/obj/Debug/net5.0/eskb_reader.GeneratedMSBuildEditorConfig.editorconfig
+/home/sajad/Desktop/edu/data structure/project/eskb_reader/obj/Debug/net5.0/eskb_reader.AssemblyInfoInputs.cache
+/home/sajad/Desktop/edu/data structure/project/eskb_reader/obj/Debug/net5.0/eskb_reader.AssemblyInfo.cs
+/home/sajad/Desktop/edu/data structure/project/eskb_reader/obj/Debug/net5.0/eskb_reader.csproj.CoreCompileInputs.cache
+/home/sajad/Desktop/edu/data structure/project/eskb_reader/obj/Debug/net5.0/eskb_reader.dll
+/home/sajad/Desktop/edu/data structure/project/eskb_reader/obj/Debug/net5.0/ref/eskb_reader.dll
+/home/sajad/Desktop/edu/data structure/project/eskb_reader/obj/Debug/net5.0/eskb_reader.pdb
+/home/sajad/Desktop/edu/data structure/project/eskb_reader/obj/Debug/net5.0/eskb_reader.genruntimeconfig.cache

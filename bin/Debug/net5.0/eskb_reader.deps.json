@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v5.0": {
-      "project/1.0.0": {
+      "eskb_reader/1.0.0": {
         "runtime": {
-          "project.dll": {}
+          "eskb_reader.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "project/1.0.0": {
+    "eskb_reader/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

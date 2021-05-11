@@ -1,7 +1,10 @@
 [FACTS]
 
+man("mamal")
 man("ali")
+man("reza")
 woman("zahra")
+woman("fati")
 father("ali", "hassan")
 father("ali", "reza")
 mother("zahra", "hassan")

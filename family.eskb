@@ -2,7 +2,6 @@
 
 man("mamal")
 man("ali")
-man("reza")
 woman("zahra")
 woman("fati")
 father("ali", "hassan")
@@ -18,4 +17,4 @@ husband(x,y) = father(x,a), mother(y,a)
 wife(x,y) = father(y,a), mother(x,a)
 sibling(x,y) = parent(a,x), parent(a,y)
 sister(x,y) = parent(a,x), parent(a,y), woman(x)
-brother(x,y) = parent(a,x), parent(a,y), man(x)
+brother(x,y) = parent(a,x), parent(a,y), man(a)

@@ -75,7 +75,7 @@ namespace eskb_reader.ESKB
             List<string> alreadyPrinted = new List<string>();
             List<String> unknowns = new List<string>();
             if (!input.GetPrimeLiteral().Contains('"')) unknowns.Add(input.GetPrimeLiteral());
-            if (!input.GetSecondLiteral().Contains('"')) unknowns.Add(input.GetSecondLiteral());
+            if (input.GetSecondLiteral() != null && !input.GetSecondLiteral().Contains('"')) unknowns.Add(input.GetSecondLiteral());
             // DebugPrintDict(dict);
             foreach (var item in dict)
             {
@@ -173,6 +173,7 @@ namespace eskb_reader.ESKB
                 // if(rule.rightSide.IndexOf())
                 if (dict.Count == 0) dict.UnionDict(newDict);
                 else dict = FilterDict(dict, newDict);
+
                 // dict.UnionDict(newDict);
                 // DebugPrintDict(RecursiveQuery(item));
             }
@@ -194,7 +195,6 @@ namespace eskb_reader.ESKB
                 if (!has) newDict.Add(d.Key, d.Value);
             }
             return newDict;
-
         }
 
         public List<Rule> FindRulesByKey(string key)
